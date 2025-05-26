@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FoodPanda" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color (Foodpanda pink). -->
+        <item name="colorPrimary">#EE1C62</item>
+        <item name="colorPrimaryVariant">#B0003A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary brand color (matching primary for brand consistency). -->
+        <item name="colorSecondary">#EE1C62</item>
+        <item name="colorSecondaryVariant">#B0003A</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- You can customize other attributes here as needed -->
+    </style>
+
+</resources>
